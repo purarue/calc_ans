@@ -3,13 +3,13 @@ opam-version: "2.0"
 synopsis: "A simple REPL calculator"
 description:
   "A simple REPL calculator, supports +, -, *, /, ^, %, parens, abs, floor, ceil, round and sqrt, with a persistent memory of the last answer"
-maintainer: ["Sean Breckenridge"]
-authors: ["Sean Breckenridge"]
+maintainer: ["purarue"]
+authors: ["purarue"]
 license: "MIT"
 tags: ["topics" "cli" "math" "calculator"]
-homepage: "https://github.com/seanbreckenridge/calc_ans"
-doc: "https://github.com/seanbreckenridge/calc_ans"
-bug-reports: "https://github.com/seanbreckenridge/calc_ans/issues"
+homepage: "https://github.com/purarue/calc_ans"
+doc: "https://github.com/purarue/calc_ans"
+bug-reports: "https://github.com/purarue/calc_ans/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.10"}
@@ -29,4 +29,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/seanbreckenridge/calc_ans.git"
+dev-repo: "git+https://github.com/purarue/calc_ans.git"

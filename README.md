@@ -37,7 +37,7 @@ This is optimized for my use-case on my phone with [`termux`](https://termux.dev
 Requires [`opam`](https://opam.ocaml.org/doc/Install.html) and `dune` (install with `opam install dune`)
 
 ```bash
-git clone https://github.com/seanbreckenridge/calc_ans
+git clone https://github.com/purarue/calc_ans
 cd calc_ans
 make
 ```

@@ -5,15 +5,15 @@
 (generate_opam_files true)
 
 (source
- (github seanbreckenridge/calc_ans))
+ (github purarue/calc_ans))
 
-(authors "Sean Breckenridge")
+(authors "purarue")
 
-(maintainers "Sean Breckenridge")
+(maintainers "purarue")
 
 (license MIT)
 
-(documentation https://github.com/seanbreckenridge/calc_ans)
+(documentation https://github.com/purarue/calc_ans)
 
 (package
  (name calc_ans)
