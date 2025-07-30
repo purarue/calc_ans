@@ -49,6 +49,15 @@ dune build
 cp _build/default/bin/main.exe ~/.local/bin/calc_ans
 ```
 
+On termux you may have to do:
+
+```
+unset LD_PRELOAD
+termux-chroot
+```
+
+... prior to building.
+
 Installs `calc_ans` and `calc_ans_rlwrap` to `~/.local/bin/`.
 
 `calc_ans_rlwrap` is a wrapper around `calc_ans` which uses [`rlwrap`](https://github.com/hanslub42/rlwrap) to provide lots of nice CLI functionality - a persistent history, tab completion, arrow keys, line-editing, history search with <CTRL+R>
