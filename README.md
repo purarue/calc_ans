@@ -40,6 +40,8 @@ Requires [`opam`](https://opam.ocaml.org/doc/Install.html) and `dune` (install w
 git clone https://github.com/purarue/calc_ans
 cd calc_ans
 make
+# to install into ~/.local/bin:
+make install
 ```
 
 Or manually:
